@@ -1,0 +1,463 @@
+.features {
+    min-width: 320px;
+    width: 100%;
+    background-color: #f4f4f4;
+    padding: 0 10px;
+    box-sizing: border-box;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.section-title-two-decktop {
+    display: none;
+}
+
+.features h2 {
+    font-family: 'Montserrat', sans-serif;
+    color: #8d81ac;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 28px;
+    text-align: center;
+    padding: 35px 0;
+    width: 230px;
+    margin: 0 auto;
+}
+
+.feature-item__icon-block {
+    text-align: center;
+}
+
+.features-list img {
+    padding-bottom: 30px;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    color: #323232;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 16px;
+    text-align: center;
+}
+
+.feature-item__about-block p {
+    font-family: 'Lato', sans-serif;
+    color: #848e97;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+    text-align: center;
+    width: 265px;
+    margin: 0 auto;
+    padding: 15px 0 38px;
+}
+
+.features__img-block {
+    background-image: url('../img/hereis-editor-screen.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 320px;
+    height: 380px;
+    padding-left: 70px;
+    /* margin-right: -10px; */
+}
+
+.section-carousel {
+    min-width: 320px;
+    width: 100%;
+    padding: 0 10px;
+    box-sizing: border-box;
+}
+
+.social-links {
+    text-align: center;
+}
+
+.carousel-item__name {
+    font-family: 'Montserrat', sans-serif;
+    color: #474747;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+    text-align: center;
+}
+
+.carousel-item__nick {
+    font-family: 'Montserrat', sans-serif;
+    color: #8d81ac;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+}
+
+.carousel-item__comment {
+    position: relative;
+    width: 75%;
+    margin: 0 auto;
+    font-family: 'Lato', sans-serif;
+    color: #333333;
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: center;
+    padding-top: 15px;
+}
+
+.carousel-item__comment_violet {
+    color: #8d81ac;
+}
+
+.carousel-item__img {
+    padding-top: 65px;
+    padding-bottom: 25px;
+}
+
+.carousel-item__img img {
+    margin: 0 auto;
+}
+
+.carousel-item__time-post {
+    font-family: 'Montserrat', sans-serif;
+    color: #848e97;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 36px;
+    text-align: center;
+}
+
+.arr-prev, .arr-next {
+    font-family: 'Montserrat', sans-serif;
+    width: 20px;
+    height: 20px;
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+    line-height: 20px;
+    position: absolute;
+    z-index: 9999;
+    top: 50%;
+    color: #c8cbcf;
+    transform: translate(0, -50%) scaleX(0.75);
+    cursor: pointer;
+}
+
+.arr-next {
+    right: 22px;
+}
+
+.arr-prev {
+    left: 22px;
+}
+
+.social-item {
+    padding-top: 25px;
+    width: 280px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.social-btn {
+    position: relative;
+    margin: 0 auto;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 21px;
+    font-weight: 400;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    border-radius: 4px;
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    max-width: 240px;
+    box-sizing: border-box;
+}
+
+.social-btn i {
+    position: absolute;
+    left: 25px;
+    top: 50%;
+    transform: translate(0, -50%);
+}
+
+.social-btn_github {
+    background-color: #f3f3f3;
+    color: #000000;
+}
+.social-btn_github:hover {
+    background-color: #2b414d;
+    color: #fff;
+}
+
+.social-btn_facebook {
+    background-color: #3b5998;
+    color: #ffffff;
+}
+.social-btn_facebook:hover {
+    background-color: #fff;
+    color: #3b5998;
+    border: 1px solid #3b5998;
+}
+
+
+.social-btn_twitter {
+    background-color: #26a6d1;
+    color: #ffffff;
+}
+
+.social-btn_twitter:hover {
+    background-color: #fff;
+    color: #26a6d1;
+    border: 1px solid #26a6d1;
+}
+.social-item__followers {
+    font-family: 'Montserrat', sans-serif;
+    color: #848e97;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 32px;
+    text-align: center;
+    margin-top: 18px;
+}
+
+@media screen and (min-width: 401px) {
+
+    .features h2 {
+        font-size: 42px;
+        line-height: 40px;
+        width: 302px;
+    }
+
+    .feature-item {
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        width: 100%;
+    }
+
+    h3 {
+        text-align: left;
+    }
+
+    .feature-item__icon-block {
+        display: inline-block;
+        flex-basis: 30%;
+    }
+
+    .feature-item__about-block {
+        display: inline-block;
+        flex-basis: 70%;
+    }
+
+    .feature-item__about-block p {
+        text-align: left;
+        width: 270px;
+        padding: 15px 0 45px 0;
+        margin: 0;
+    }
+
+    .features__img-block {
+        width: 95%;
+        height: 520px;
+        padding-bottom: 20px;
+    }
+
+    .carousel-item__author {
+        margin: 40px auto 20px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .carousel-item__img {
+        display: inline-block;
+        padding: 0;
+    }
+
+    .carousel-item__name {
+        text-align: left;
+    }
+
+    .carousel-item__nick {
+        text-align: left;
+    }
+
+    .carousel-item__img img {
+        margin: 0;
+        vertical-align: middle;
+        display: inline-block;
+    }
+
+    .carousel-item__img__about-autor {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-left: 20px;
+    }
+
+    .carousel-item__comment {
+        width: 75%;
+    }
+
+    .arr-next {
+        right: 25px;
+    }
+
+    .arr-prev {
+        left: 25px;
+    }
+}
+
+@media screen and (min-width: 481px) {
+
+    .features {
+        height: 100%;
+    }
+
+    .features h2 {
+        font-size: 42px;
+        line-height: 40px;
+        width: 100%;
+        padding-bottom: 60px;
+    }
+
+    .feature-item__about-block p {
+        width: 100%;
+    }
+
+    .features__img-block {
+        width: 95%;
+        /* max-width: 750px; */
+        /* max-height: 625px; */
+        padding-bottom: 186px;
+        /* background-size: cover; */
+        /* margin-left: 152px; */
+        margin-bottom: 25px;
+    }
+
+    .arr-next {
+        right: 25px;
+    }
+
+    .arr-prev {
+        left: 38px;
+    }
+
+    .carousel-item__comment {
+        width: 75%;
+    }
+
+    .social-links {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .social-btn_github {
+         margin-right: 10px;
+         margin-left: 10px;
+    }
+    .social-btn_twitter {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .social-item {
+        width: 50%;
+        margin: 0;
+    }
+    .social-item .social-item__followers  {
+        text-align: center;
+        width: 240px;
+        /* margin: 18px auto 0; */
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .social-item:nth-of-type(2) .social-item__followers  {
+        text-align: center;
+        width: 240px;
+        margin: 18px auto 0;
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+}
+
+@media screen and (min-width: 993px) {
+    .features {
+        width: 100%;
+    }
+
+    .carousel {
+        width: 100%;
+        /*margin: 0 auto;*/
+    }
+
+    .container {
+        width: 100%;
+        margin: 65px auto 20px;
+        DISPLAY: FLEX;
+        max-width: 1200px;
+    }
+
+    .features-list {
+        FLEX: 0 0 40%;
+    }
+
+    .section-title-two-decktop {
+        display: block;
+        margin-left: 30px;
+        flex: 0 0 40px;
+    }
+
+    .section-title-two-mobile {
+        display: none;
+    }
+    .decktop-wrapper {
+        display: flex;
+        flex-direction: column;
+        flex: 1 0 auto;
+        margin-right: -10px;
+    }
+    .decktop-wrapper h2 {
+        padding: 0;
+        flex: 0 0 60%;
+        margin: 0;
+    }
+
+    .features__img-block {
+        MARGIN: 0;
+        FLEX: 1 0 auto;
+        PADDING: 0;
+        width: 100%;
+    }
+
+    .carousel-item__comment {
+        width: 750px;
+    }
+    .arr-prev {
+        left: 140px;
+    }
+    .arr-next {
+        right: 140px;
+    }
+    .social-links {
+        flex-wrap: nowrap;
+        justify-content: center;
+    }
+    .social-item {
+        width: 280px;
+        margin: 0;
+    }
+    .social-btn_github {
+        margin: 0 auto;
+    }
+    .social-btn_twitter {
+        margin: 0 auto;
+    }
+
+}
